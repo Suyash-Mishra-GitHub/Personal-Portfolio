@@ -8,8 +8,8 @@
     "start": "react-scripts start",
     "start:legacy": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "predeploy": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "test": "react-scripts test",
     "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
