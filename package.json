@@ -2,7 +2,7 @@
   "name": "portfolio_suyash",
   "version": "1.0.0",
   "description": "Personal Portfolio",
-  "homepage": "https://Suyash-Mishra-GitHub.github.io/Personal-Portfolio",
+  "homepage": "https://Suyash-Mishra-GitHub.github.io/Portfolio_Suyash",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
