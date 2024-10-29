@@ -7931,29 +7931,86 @@
           )
         );
       };
-      Boolean(
+      const zt = Boolean(
         "localhost" === window.location.hostname ||
           "[::1]" === window.location.hostname ||
           window.location.hostname.match(
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
+      function Qt(e, t) {
+        navigator.serviceWorker
+          .register(e)
+          .then((e) => {
+            e.onupdatefound = () => {
+              const a = e.installing;
+              null != a &&
+                (a.onstatechange = () => {
+                  "installed" === a.state &&
+                    (navigator.serviceWorker.controller
+                      ? (console.log(
+                          "New content is available and will be used when all tabs for this page are closed. See https://bit.ly/CRA-PWA."
+                        ),
+                        t && t.onUpdate && t.onUpdate(e))
+                      : (console.log("Content is cached for offline use."),
+                        t && t.onSuccess && t.onSuccess(e)));
+                });
+            };
+          })
+          .catch((e) => {
+            console.error("Error during service worker registration:", e);
+          });
+      }
       a(313);
-      const zt = new m.a();
+      const Lt = new m.a();
       o.a.render(
         s.a.createElement(
           c.a,
-          { value: zt },
+          { value: Lt },
           s.a.createElement(n.a, { theme: i.a }, s.a.createElement(Xt, null))
         ),
         document.getElementById("root")
       ),
-        "serviceWorker" in navigator &&
-          navigator.serviceWorker.ready.then((e) => {
-            e.unregister();
-          });
+        (function (e) {
+          if ("serviceWorker" in navigator) {
+            if (
+              new URL("/Personal-Portfolio", window.location.href).origin !==
+              window.location.origin
+            )
+              return;
+            window.addEventListener("load", () => {
+              const t = "/Personal-Portfolio/service-worker.js";
+              zt
+                ? (!(function (e, t) {
+                    fetch(e)
+                      .then((a) => {
+                        const r = a.headers.get("content-type");
+                        404 === a.status ||
+                        (null != r && -1 === r.indexOf("javascript"))
+                          ? navigator.serviceWorker.ready.then((e) => {
+                              e.unregister().then(() => {
+                                window.location.reload();
+                              });
+                            })
+                          : Qt(e, t);
+                      })
+                      .catch(() => {
+                        console.log(
+                          "No internet connection found. App is running in offline mode."
+                        );
+                      });
+                  })(t, e),
+                  navigator.serviceWorker.ready.then(() => {
+                    console.log(
+                      "This web app is being served cache-first by a service worker. To learn more, visit https://bit.ly/CRA-PWA"
+                    );
+                  }))
+                : Qt(t, e);
+            });
+          }
+        })();
     },
   ]),
   [[99, 1, 2]],
 ]);
-//# sourceMappingURL=main.a084fa04.chunk.js.map
+//# sourceMappingURL=main.95c9f3d4.chunk.js.map
