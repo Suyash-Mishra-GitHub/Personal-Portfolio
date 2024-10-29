@@ -2,26 +2,20 @@
   "name": "portfolio_suyash",
   "version": "1.0.0",
   "description": "Personal Portfolio",
+  "license": "ISC",
+  "author": "Suyash Mishra",
   "homepage": "https://suyash-mishra-github.github.io/Personal-Portfolio/",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "start:legacy": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
+    "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "predeploy": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "test": "react-scripts test",
-    "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
+    "start": "react-scripts start",
+    "start:legacy": "react-scripts --openssl-legacy-provider start",
+    "test": "react-scripts test"
   },
-  "keywords": [
-    "portfolio",
-    "suyash",
-    "web",
-    "developer"
-  ],
-  "author": "Suyash Mishra",
-  "license": "ISC",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
@@ -52,6 +46,12 @@
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"
   },
+  "keywords": [
+    "developer",
+    "portfolio",
+    "suyash",
+    "web"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",

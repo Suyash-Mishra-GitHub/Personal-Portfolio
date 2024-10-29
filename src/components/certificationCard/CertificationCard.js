@@ -100,13 +100,15 @@ class CertificationCard extends Component {
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Skill 
+                  Skill
                 </h3>
               </div>
             </a>
           </div>
           <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: "#001F3F" }}> {/* Navy Blue color */}
+            <h2 className="cert-body-title" style={{ color: "#001F3F" }}>
+              {" "}
+              {/* Navy Blue color */}
               {certificate.title}
             </h2>
             <h3

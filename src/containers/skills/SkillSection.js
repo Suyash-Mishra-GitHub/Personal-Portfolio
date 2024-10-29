@@ -19,7 +19,7 @@ function GetSkillSvg(props) {
     case "FullStackImg":
       return <FullStackImg theme={props.theme} />;
     case "CloudInfraImg":
-      return <CloudInfraImg theme={props.theme} style={{ height: '400px' }} />;
+      return <CloudInfraImg theme={props.theme} style={{ height: "400px" }} />;
     case "FrontendTechImg":
       return <img src={FrontendTechImg} alt="Frontend Technologies" />;
     case "BackendTechImg":
@@ -27,7 +27,7 @@ function GetSkillSvg(props) {
     case "DatabasesImg":
       return <img src={DatabasesTechImg} alt="Databases Technologies" />;
     case "VersionControlImg":
-      return <img  src={OthersTechImg} alt="Version Control and Tools" />;
+      return <img src={OthersTechImg} alt="Version Control and Tools" />;
     default:
       return <DesignImg theme={props.theme} />;
   }
@@ -42,8 +42,11 @@ class SkillSection extends Component {
           return (
             <div key={i} className="skills-main-div ">
               <Fade left duration={2000}>
-                <div className="skills-image-div" style={{height:"500px", borderRight:"3px solid gray"}}>
-                  <GetSkillSvg  fileName={skill.fileName} theme={theme} />
+                <div
+                  className="skills-image-div"
+                  style={{ height: "500px", borderRight: "3px solid gray" }}
+                >
+                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
 
@@ -53,7 +56,7 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500} >
+                <Fade right duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>

@@ -26,7 +26,8 @@ const greeting = {
     "Innovative builder of robust solutions that merge social and technical systems for real change.",
   resumeLink:
     "https://drive.google.com/file/d/17r9LD8HpxBcUxHQc-pRd5Ns6qZx1SMk8/view",
-  portfolio_repository: "https://github.com/Suyash-Mishra-GitHub/Portfolio-Website",
+  portfolio_repository:
+    "https://github.com/Suyash-Mishra-GitHub/Portfolio-Website",
   githubProfile: "https://github.com/Suyash-Mishra-GitHub",
 };
 
@@ -363,15 +364,15 @@ const competitiveSites = {
       siteName: "Polytechnic",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#D5A6A8", 
+        color: "#D5A6A8",
       },
-      profileLink: "https://yourpolytechnicwebsite.com", 
+      profileLink: "https://yourpolytechnicwebsite.com",
     },
     {
       siteName: "Intermediate",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#7B92AB", 
+        color: "#7B92AB",
       },
       profileLink: "https://yourintermediatecollegewebsite.com",
     },
@@ -379,15 +380,15 @@ const competitiveSites = {
       siteName: "High School",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#4A90E2", 
+        color: "#4A90E2",
       },
-      profileLink: "https://yourhighschoolwebsite.com", 
+      profileLink: "https://yourhighschoolwebsite.com",
     },
     {
       siteName: "B.Tech",
       iconifyClassname: "simple-icons:school",
       style: {
-        color: "#9B59B6", 
+        color: "#9B59B6",
       },
       profileLink: "https://yourbtechcollegewebsite.com",
     },
@@ -397,7 +398,8 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Khwaja Moinuddin Chishti Language University Lucknow, Uttar-Pradesh",
+      title:
+        "Khwaja Moinuddin Chishti Language University Lucknow, Uttar-Pradesh",
       subtitle: "Master of Computer Applications (MCA)",
       logo_path: "kmclu_logo2.png",
       alt_name: "kmclu LKO",
@@ -420,20 +422,21 @@ const degrees = {
         "⚡ Developed a dynamic web application using PHP and Laravel, implementing features such as user authentication, data management, and RESTful APIs, resulting in a seamless user experience.",
         "⚡ Managed database operations using MySQL, ensuring efficient data storage, retrieval, and security for web applications.",
       ],
-      website_link: "https://gyanodayadegreecollege.in/"
-    },    
+      website_link: "https://gyanodayadegreecollege.in/",
+    },
   ],
 };
 const certifications = {
   certifications: [
     {
       title: "ECMAScript",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
       icon_name: "js", // Example using FontAwesome
       certificate_link: "https://example.com/certification/7search-ecmascript",
       alt_name: "7Search PPC",
       color_code: "#123456",
-      skills: ["JavaScript", "ECMAScript"]
+      skills: ["JavaScript", "ECMAScript"],
     },
     {
       title: "Express.js",
@@ -442,7 +445,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-expressjs",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["Express.js", "Node.js"]
+      skills: ["Express.js", "Node.js"],
     },
     {
       title: "Microsoft SQL Server",
@@ -451,16 +454,17 @@ const certifications = {
       certificate_link: "https://example.com/certification/diston-mssqlserver",
       alt_name: "Diston Infotech Pvt Ltd",
       color_code: "#987654",
-      skills: ["Microsoft SQL Server", "SQL"]
+      skills: ["Microsoft SQL Server", "SQL"],
     },
     {
       title: "React.js",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
       icon_name: "react", // Example using FontAwesome
       certificate_link: "https://example.com/certification/7search-reactjs",
       alt_name: "7Search PPC",
       color_code: "#123456",
-      skills: ["React.js", "JavaScript"]
+      skills: ["React.js", "JavaScript"],
     },
     {
       title: "Laravel",
@@ -469,7 +473,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-laravel",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["Laravel", "PHP"]
+      skills: ["Laravel", "PHP"],
     },
     {
       title: "MySQLi",
@@ -478,7 +482,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/diston-mysqli",
       alt_name: "Diston Infotech Pvt Ltd",
       color_code: "#987654",
-      skills: ["MySQLi", "SQL"]
+      skills: ["MySQLi", "SQL"],
     },
     {
       title: "Vanilla JavaScript",
@@ -487,16 +491,17 @@ const certifications = {
       certificate_link: "https://example.com/certification/Diston-vanilla-js",
       alt_name: "Diston",
       color_code: "#ABCDEF",
-      skills: ["Vanilla JavaScript", "JavaScript"]
+      skills: ["Vanilla JavaScript", "JavaScript"],
     },
     {
       title: "JavaScript",
-      subtitle: "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
+      subtitle:
+        "7Search PPC - Premium Advertising & Monetization Platform · Lucknow, Uttar Pradesh, India · Hybrid",
       icon_name: "js", // Example using FontAwesome
       certificate_link: "https://example.com/certification/7search-javascript",
       alt_name: "7Search PPC",
       color_code: "#123456",
-      skills: ["JavaScript"]
+      skills: ["JavaScript"],
     },
     {
       title: "CSS",
@@ -505,7 +510,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-css",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["CSS", "Web Development"]
+      skills: ["CSS", "Web Development"],
     },
     {
       title: "SQL",
@@ -514,7 +519,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/diston-sql",
       alt_name: "Diston Infotech Pvt Ltd",
       color_code: "#987654",
-      skills: ["SQL"]
+      skills: ["SQL"],
     },
     {
       title: "HTML5",
@@ -523,7 +528,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/Diston-html5",
       alt_name: "Diston",
       color_code: "#ABCDEF",
-      skills: ["HTML5"]
+      skills: ["HTML5"],
     },
     {
       title: "Node.js",
@@ -532,7 +537,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-nodejs",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["Node.js"]
+      skills: ["Node.js"],
     },
     {
       title: "Core PHP",
@@ -541,7 +546,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/diston-core-php",
       alt_name: "Diston Infotech Pvt Ltd",
       color_code: "#987654",
-      skills: ["Core PHP", "PHP"]
+      skills: ["Core PHP", "PHP"],
     },
     {
       title: "PHP",
@@ -550,7 +555,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/Diston-php",
       alt_name: "Diston",
       color_code: "#ABCDEF",
-      skills: ["PHP"]
+      skills: ["PHP"],
     },
     {
       title: "MySQL",
@@ -559,7 +564,7 @@ const certifications = {
       certificate_link: "https://example.com/certification/diston-mysql",
       alt_name: "Diston Infotech Pvt Ltd",
       color_code: "#987654",
-      skills: ["MySQL"]
+      skills: ["MySQL"],
     },
     {
       title: "MongoDB",
@@ -568,9 +573,9 @@ const certifications = {
       certificate_link: "https://example.com/certification/logelite-mongodb",
       alt_name: "Logelite Pvt. Ltd.",
       color_code: "#654321",
-      skills: ["MongoDB"]
-    }
-  ]
+      skills: ["MongoDB"],
+    },
+  ],
 };
 
 // Experience Page
@@ -745,14 +750,14 @@ const contactPageData = {
     postalCode: "226020",
     streetAddress: "Daudnagar , Faizullahganj",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.co.in/maps/place/New+Atal+Vihar+Colony+,+Daudnagar+,+Faizullahganj,+Lucknow/@26.9088457,80.9015202,17z/data=!4m14!1m7!3m6!1s0x3999573ff487f6ff:0x2c5d0dbc75804941!2sNew+Atal+Vihar+Colony+,+Daudnagar+,+Faizullahganj,+Lucknow!8m2!3d26.9088409!4d80.9040951!16s%2Fg%2F11swbxzrmx!3m5!1s0x3999573ff487f6ff:0x2c5d0dbc75804941!8m2!3d26.9088409!4d80.9040951!16s%2Fg%2F11swbxzrmx?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D",
+    location_map_link:
+      "https://www.google.co.in/maps/place/New+Atal+Vihar+Colony+,+Daudnagar+,+Faizullahganj,+Lucknow/@26.9088457,80.9015202,17z/data=!4m14!1m7!3m6!1s0x3999573ff487f6ff:0x2c5d0dbc75804941!2sNew+Atal+Vihar+Colony+,+Daudnagar+,+Faizullahganj,+Lucknow!8m2!3d26.9088409!4d80.9040951!16s%2Fg%2F11swbxzrmx!3m5!1s0x3999573ff487f6ff:0x2c5d0dbc75804941!8m2!3d26.9088409!4d80.9040951!16s%2Fg%2F11swbxzrmx?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D",
   },
   phoneSection: {
     title: "",
     subtitle: "",
   },
 };
-
 
 export {
   settings,

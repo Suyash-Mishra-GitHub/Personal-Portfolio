@@ -85,12 +85,11 @@
 }
 /* Skills.css */
 
-.skills-image-div img{
+.skills-image-div img {
   max-height: 480px; /* Set the maximum height for images */
-  width: auto;       /* Maintain aspect ratio */
+  width: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image fits within the container */
 }
-
 
 /* Optional: Set the image container to ensure proper sizing */
 .skills-image-div {
